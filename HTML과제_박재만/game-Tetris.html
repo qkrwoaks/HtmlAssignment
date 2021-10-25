@@ -9,11 +9,19 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="game-text">
+            <span>게임종료!!!</span>
+            <button>다시하기</button>
+            <div>
+                <button>나가기</button>
+            </div>
+        </div>
         <div class="score">0</div>
         <div class="playground">
             <ul></ul> 
         </div>
     </div>
-    <script src="js/tetris.js"></script>
+    <script src="js/tetris.js" type="module"></script>
+    <audio autoplay src="/audios/테트리스_BGM_Bradinsky_Tetris_BGM_Bradinsky_бради.mp3" type="audio/mpeg" > 브라우저가 audio 태그를 지원하지 않을 때 표시되는 문장 </audio>
 </body>
 </html>
